@@ -9,10 +9,10 @@
 
       <%= f.email_field :email,
                 autofocus: true,
-                autocomplete: "form-control" %>
+                class: "form-control" %>
 
       <%= f.password_field :password,
-                autocomplete: "form-control" %>
+                class: "form-control" %>
 
     <% if devise_mapping.rememberable? %>
         <%= f.check_box :remember_me %>
