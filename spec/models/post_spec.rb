@@ -4,7 +4,7 @@ RSpec.describe Post, type: :model do
   context 'Associations' do
     it 'belogns_to user' do
       association = described_class.reflect_on_association(:user).macro
-      exoect(association).to eq :belongs_to
+      expect(association).to eq :belongs_to
     end
 
     it 'belongs_to category' do
