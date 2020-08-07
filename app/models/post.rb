@@ -1,4 +1,4 @@
 class Post < ApplicationRecord
   belongs_to :user
-  belongs/_to :category
+  belongs_to :category
 end
