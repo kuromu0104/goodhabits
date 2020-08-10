@@ -12,4 +12,5 @@ Rails.application.routes.draw do
       get 'team'
     end
   end
+  
 end
